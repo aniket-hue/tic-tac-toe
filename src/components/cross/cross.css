@@ -1,0 +1,27 @@
+.cross-box {
+  position: relative;
+
+  width: var(--box);
+  height: var(--box);
+}
+
+.line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+
+  width: var(--crossWidth);
+  height: 100%;
+  background: var(--crossColor);
+
+  border-radius: 3px;
+  box-shadow: 0 0 2.8rem var(--crossColor);
+}
+
+.right {
+  transform: translate(-50%, -50%) rotateZ(45deg);
+}
+
+.left {
+  transform: translate(-50%, -50%) rotateZ(-45deg);
+}

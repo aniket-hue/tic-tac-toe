@@ -1,0 +1,16 @@
+.circle-box {
+  display: flex;
+
+  width: var(--box);
+  height: var(--box);
+}
+
+.circle {
+  width: 100%;
+  height: 100%;
+
+  margin: auto;
+  border: var(--circleWidth) solid var(--circleColor);
+  box-shadow: 0 0 2.8rem var(--circleColor);
+  border-radius: 50%;
+}
